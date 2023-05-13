@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+   <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <!-- imannig. remote -->
+  <remote  name="ima"
+           fetch="https://github.com/imannig" />
+  
+  <!-- My GitLab. remote -->
+  <remote  name="imalab"
+           fetch="https://gitlab.com/imannig" />
+  
+ <!-- Trees -->
+ <project path="device/xiaomi/chime" name="device_xiaomi_chime-k.git" remote="ima" revision="13.0-local" />
+ <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chimek.git" remote="imalab" revision="13.0" />
+ <project path="kernel/xiaomi/chime" name="gf" remote="ima" revision="sc-qpr3" />
+ 
+</manifest>
